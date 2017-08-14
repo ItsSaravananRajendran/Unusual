@@ -21,13 +21,13 @@ conky.config = {
 	alignment='top_right',
 	gap_x=6,
 	gap_y=25,
-	lua_load = '/home/thunderbolt/scripts/script.lua',
+	lua_load = '~/.conky/Script/script.lua',
 	lua_draw_hook_pre = 'main'
 };
 
 
 conky.text= [[
-${image ~/bitmap.png -p 0,0}
+${image ~/.conky/Images/bitmap.png -p 0,0}
 ${goto 170}${voffset 165}CPU ${cpu cpu}%
 ]]
 
