@@ -1,0 +1,33 @@
+conky.config = {
+	background=false,
+	update_interval=1,
+	override_utf8_locale=true,
+
+	double_buffer=true,
+	no_buffers=true,
+
+	text_buffer_size=2048,
+	imlib_cache_size=0,
+
+	temperature_unit='celsius',
+
+	own_window=true,
+	own_window_type='dock',
+	own_window_transparent=true,
+	own_window_hints='undecorated,sticky,skip_taskbar,skip_pager,below',
+
+	minimum_width=400,
+	minimum_height=500,
+	alignment='top_right',
+	gap_x=6,
+	gap_y=25,
+	lua_load = '/home/thunderbolt/scripts/script.lua',
+	lua_draw_hook_pre = 'main'
+};
+
+
+conky.text= [[
+${image ~/bitmap.png -p 0,0}
+${goto 170}${voffset 165}CPU ${cpu cpu}%
+]]
+
