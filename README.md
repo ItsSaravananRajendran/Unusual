@@ -10,5 +10,5 @@ This uses conky monitoring system to display cpu and system related other inform
 
 ![IMAGE ALT TEXT HERE](http://i.imgur.com/9gKLJA9.png)
 
-#Installation
+# Installation
   * Place the .conky folder and .conkyrc in your home folder 
