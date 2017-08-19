@@ -76,9 +76,8 @@ function draw_graph(data,max_value,table_length,blx,bly,red,green,blue,alpha,wid
     pro = (30/  max_value)
     
 
-    draw_start_line(Cpu_graph_radius,65,5,angle)
+    draw_start_line(Cpu_graph_radius,65,45,angle)
     cairo_set_source_rgba (cr,0.5,.75,1,alpha)
-    cairo_set_line_width (cr,width)
     
     for i=1, table_length do
        bar_height=pro *data[i]
@@ -114,6 +113,7 @@ function draw_circle(x,y,r,cpu )
 end
 
 function draw_start_line(offset,length,width,degree)
+    cairo_set_line_width(cr, width)
     point = (math.pi / 180) * degree
     start_x = 0 + (offset * math.sin(point))
     start_y = 0 - (offset * math.cos(point))

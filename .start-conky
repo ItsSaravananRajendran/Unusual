@@ -1,0 +1,4 @@
+#!/bin/sh
+  2 sleep 50
+  3 conky -d -c ~/.conkyrc
+  4 exit
