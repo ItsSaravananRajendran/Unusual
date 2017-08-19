@@ -7,7 +7,7 @@
 ***
 
 This uses conky monitoring system to display cpu and system related other information 
-This is an developement build 
+This is an developement build for 4 core systems. 
 
 ![Screenshot of the conky](http://i.imgur.com/7ZGwRhZ.png)
 
