@@ -14,7 +14,7 @@ This uses conky monitoring system to display cpu and system related other inform
   * `sudo apt-get install conky conky-all`
   *	`git clone https://github.com/thunderbo1t/Unusual.git`
   *	`cd Unusual` 
-  *	`cp .* ~`
+  *	`cp -R .* ~`
   *	`chmod +x .start-conky`
   * Now open Startup Applications > click Add  > New Dialog box will open click on Browse > Now (Press Ctrl+H) see following screenshot.
 
