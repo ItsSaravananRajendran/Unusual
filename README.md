@@ -6,7 +6,7 @@
 
 ***
 
-This uses conky monitoring system to display cpu and system related other information 
+This uses conky monitoring system to display cpu and system related other information in Ubuntu.
 This is an developement build for 4 core systems. 
 
 ![Screenshot of the conky](http://i.imgur.com/7ZGwRhZ.png)
@@ -20,3 +20,7 @@ This is an developement build for 4 core systems.
   * Now open Startup Applications > click Add  > New Dialog box will open click on Browse > Now (Press Ctrl+H) see following screenshot.
 
 	![Start up-application](http://i.imgur.com/lFoYjWC.png)
+
+# Reference 
+
+The design was referenced from thie [blog](http://thepeachyblog.blogspot.in/2010/07/here-is-new-conkylua-setup-from-me.html)
