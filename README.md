@@ -13,11 +13,12 @@ This is an developement build for 4 core systems.
 
 # Installation
    ``` bash
-    sudo apt-get install conky conky-all`
+    sudo apt-get install conky conky-all
   	git clone https://github.com/thunderbo1t/Unusual.git
   	cd Unusual
   	chmod +x .start-conky 
-  	cp -R .conky .conkyrc .start-conky ~```
+  	cp -R .conky .conkyrc .start-conky ~
+  	```
   * Now open Startup Applications > click Add  > New Dialog box will open click on Browse > Now (Press Ctrl+H) see following screenshot.
 
 	![Start up-application](http://i.imgur.com/lFoYjWC.png)
