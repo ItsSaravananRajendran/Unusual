@@ -9,7 +9,7 @@
 This uses conky monitoring system to display cpu and system related other information in Ubuntu.
 This is an developement build for 4 core systems. 
 
-![Screenshot of the conky](http://i.imgur.com/7ZGwRhZ.png)
+![Screenshot of the conky](http://i.imgur.com/4n6T7w8.png)
 
 # Installation
    ```bash
@@ -18,10 +18,19 @@ This is an developement build for 4 core systems.
   	cd Unusual
   	chmod +x .start-conky 
   	cp -R .conky .conkyrc .start-conky ~
+  	rm -R Unusual
   ```
   * Now open Startup Applications > click Add  > New Dialog box will open click on Browse > Now (Press Ctrl+H) see following screenshot.
 
 	![Start up-application](http://i.imgur.com/lFoYjWC.png)
+
+# Updating
+  ```bash
+    cd Unusual
+  	chmod +x .start-conky 
+  	cp -R .conky .conkyrc .start-conky ~
+  	rm -R Unusual
+  ```
 
 # Reference 
 
