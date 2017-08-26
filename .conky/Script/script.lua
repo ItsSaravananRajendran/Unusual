@@ -85,7 +85,7 @@ function conky_main()
 	    up_graph_y = 274.2
 	    up_graph_width = 31
 	    up_max = 11
-	    up_radius = 43
+	    up_radius = 45
         up = math.log(tonumber(conky_parse('${upspeedf wlo1}')))
         --up = 10
         if up <  0 then up = 0 end
@@ -136,7 +136,7 @@ function conky_main()
 
  		--call graph drawing function
         draw_graph(down_table,down_max,table_length,down_graph_x ,down_graph_y,red,green,blue,alpha,width,14,down_radius,50)
-        draw_start_line(Cpu_graph_radius+30,55,2,235)
+        draw_start_line(Cpu_graph_radius+55,30,2,235)
         
 
         --call graph drawing function
