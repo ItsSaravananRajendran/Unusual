@@ -15,8 +15,8 @@
    version="1.1"
    id="svg917"
    inkscape:export-filename="/home/thunderbolt/bitmap.png"
-   inkscape:export-xdpi="42.330002"
-   inkscape:export-ydpi="42.330002"
+   inkscape:export-xdpi="42.400002"
+   inkscape:export-ydpi="42.400002"
    inkscape:version="0.92.2 (unknown)"
    sodipodi:docname="drawing.svg">
   <defs
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-372.34506"
-     inkscape:cy="822.75398"
+     inkscape:zoom="1.4"
+     inkscape:cx="57.426867"
+     inkscape:cy="560.3545"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -76,13 +76,13 @@
        y="-41.349701"
        transform="rotate(40.923892)" />
     <ellipse
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99500002"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:3.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99500002"
        id="path1466"
-       cx="167.45927"
-       cy="-70.95816"
-       rx="30.994049"
-       ry="29.293156"
-       transform="rotate(40.923892)" />
+       cx="167.45958"
+       cy="-70.958878"
+       rx="31.541361"
+       ry="29.810469"
+       transform="matrix(0.75557757,0.65505919,-0.6550527,0.75558319,0,0)" />
     <circle
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99500002"
        id="path1474"
@@ -453,5 +453,62 @@
          x="12.803944"
          y="125.25707"
          style="stroke-width:0.26458332px;fill:#00c9ff;fill-opacity:1">Swap</tspan></text>
+    <rect
+       style="opacity:1;fill:#00c9ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99500002;paint-order:markers fill stroke"
+       id="rect834-0-3-3"
+       width="24.677925"
+       height="0.26726952"
+       x="170.38725"
+       y="64.583549" />
+    <rect
+       style="opacity:1;fill:#00c9ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.03236508;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99500002;paint-order:markers fill stroke"
+       id="rect836-9-6-6"
+       width="4.9007201"
+       height="0.26225597"
+       x="200.36821"
+       y="-19.977617"
+       transform="matrix(0.91503409,0.40337652,-0.58237039,0.81292357,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00c9ff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="169.7113"
+       y="62.843754"
+       id="text891"><tspan
+         sodipodi:role="line"
+         id="tspan889"
+         x="169.7113"
+         y="62.843754"
+         style="stroke-width:0.26458332px;fill:#00c9ff;fill-opacity:1;">Battery</tspan></text>
+    <rect
+       style="opacity:1;fill:#00c9ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99500002;paint-order:markers fill stroke"
+       id="rect834-36"
+       width="37.825943"
+       height="0.26726952"
+       x="4.8301835"
+       y="148.63948" />
+    <rect
+       style="opacity:1;fill:#00c9ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.06486559;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99500002;paint-order:markers fill stroke"
+       id="rect836-7"
+       width="4.0830598"
+       height="0.31373072"
+       x="75.259941"
+       y="115.24399"
+       transform="matrix(0.87943975,0.47601021,-0.2042298,0.97892297,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05555534px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="5.8799295"
+       y="141.04823"
+       id="text912"><tspan
+         sodipodi:role="line"
+         id="tspan910"
+         x="5.8799295"
+         y="141.04823"
+         style="fill:#00c9ff;fill-opacity:1;stroke-width:0.26458332px">Upload /</tspan><tspan
+         sodipodi:role="line"
+         x="5.8799295"
+         y="147.66281"
+         style="fill:#00c9ff;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan914">Download</tspan></text>
   </g>
 </svg>

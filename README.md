@@ -9,7 +9,7 @@
 This uses conky monitoring system to display cpu and system related other information in Ubuntu.
 This is an developement build for 4 core systems. 
 
-![Screenshot of the conky](http://i.imgur.com/4n6T7w8.png)
+![Screenshot of the conky](https://github.com/thunderbo1t/Unusual/blob/master/.conky/Images/Screenshot.png)
 
 # Installation
    ```bash
