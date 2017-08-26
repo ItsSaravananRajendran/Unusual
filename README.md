@@ -25,13 +25,13 @@ This is an developement build for 4 core systems.
 	![Start up-application](http://i.imgur.com/lFoYjWC.png)
 
 # Updating
-	```bash
+    ```bash
 	cd && git clone https://github.com/thunderbo1t/Unusual.git
 	cd Unusual
 	chmod +x .start-conky 
 	cp -R .conky .conkyrc .start-conky ~
 	cd && rm -fR Unusual
-	```
+    ```
 
 # Reference 
 
