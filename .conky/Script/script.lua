@@ -14,6 +14,17 @@ function conky_main()
     if updates<=5 then
     end--end of table setup 
     if updates>5 then
+
+        --set color, red green blue alpha , values 0 to 1
+        red,green,blue,alpha=0.5,0.75,1,1--fully opaque blue
+
+        --un comment this for green
+        --red,green,blue,alpha=0,0.80,0,1--fully opaque green
+
+        --un comment this for black
+        --red,green,blue,alpha=1,1,1,1--fully opaque black
+        
+
         Cpu_graph_MaxWidth = 30
         Cpu_graph_center_x = 191
         Cpu_graph_center_y = 189
@@ -102,8 +113,7 @@ function conky_main()
         gvalue=conky_parse('${cpu}')
         --set max value for the above value
         max_value=100
-        --set color, red green blue alpha , values 0 to 1
-        red,green,blue,alpha=0,0,1,1--fully opaque white
+        
         --set bar width
         width=2
         --set table length, ie how many values you want recorded
@@ -191,7 +201,7 @@ function draw_graph(data,max_value,table_length,c_x,c_y,red,green,blue,alpha,wid
     pro = (ring_max_height/  max_value)
     
 
-    cairo_set_source_rgba (cr,0.5,.75,1,alpha)
+    cairo_set_source_rgba (cr,red,green,blue,alpha)
     for i=1, table_length do
        bar_height=pro *data[i]
        draw_line_in_circle(radius, bar_height, 1, angle, c_x,c_y)
@@ -219,7 +229,6 @@ function draw_circle(x,y,r,cpu )
     Start_angle = (math.asin((height_for_usage-r)/r)) - math.pi
     two = (270*(math.pi/180))
     End_angel = (two) - (Start_angle - two)
-    cairo_set_source_rgba (cr,0.5,.75,1,alpha)
     cairo_arc (cr,x,y,r,End_angel,Start_angle)
     cairo_fill_preserve (cr)
     cairo_stroke (cr)
@@ -267,7 +276,6 @@ end
 
 function test_ring()
 	cairo_set_line_width(cr,31)
-	cairo_set_source_rgba (cr,0.5,.75,1,alpha)
     cairo_arc (cr,73.5,274.2,29.5,0,6.28)
     cairo_stroke(cr)
 end

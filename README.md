@@ -34,6 +34,15 @@ This is an developement build for 4 core systems.
   cd && rm -fR Unusual
 ```
 
+
+# Customizing
+
+  * `gedit ~/.conky/Script/script.lua `
+  * uncomment the lines after 18 to suit your needs
+  * save and close it
+  * `gedit ~/.conkyrc`
+  * edit the line 30 from ${image ~/.conky/Images/bitmap.png -p 0,0} to ${image ~/.conky/Images/bitmap(white).png -p 0,0} for white and to ${image ~/.conky/Images/bitmap(green).png -p 0,0} for green and save it
+
 # Reference 
 
 The design was referenced from thie [blog](http://thepeachyblog.blogspot.in/2010/07/here-is-new-conkylua-setup-from-me.html)
