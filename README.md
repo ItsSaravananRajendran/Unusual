@@ -9,8 +9,15 @@
 This uses conky monitoring system to display cpu and system related other information in Ubuntu.
 This is an developement build for 4 core systems. 
 
-![Screenshot of the conky](https://github.com/thunderbo1t/Unusual/blob/master/.conky/Images/Screenshot.png)
+Blue variant
+![Screenshot of the conky](https://github.com/thunderbo1t/Unusual/blob/master/.conky/Images/Screenshot/Screenshot(blue).png)
 
+
+Black variant
+![Screenshot of the conky](https://github.com/thunderbo1t/Unusual/blob/master/.conky/Images/Screenshot/Screenshot(black).png)
+
+Green variant
+![Screenshot of the conky](https://github.com/thunderbo1t/Unusual/blob/master/.conky/Images/Screenshot/Screenshot(green).png)
 # Installation
    ```bash
     sudo apt-get install conky conky-all
